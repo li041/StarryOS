@@ -7,7 +7,6 @@ export MEMTRACK := n
 # QEMU Options
 export BLK := y
 export NET := y
-export VSOCK := n
 export MEM := 1G
 export ICOUNT := n
 
@@ -22,7 +21,8 @@ ifeq ($(MEMTRACK), y)
 endif
 
 IMG_URL = https://github.com/Starry-OS/rootfs/releases/download/20250917
-IMG = rootfs-$(ARCH).img
+# IMG = rootfs-$(ARCH).img
+IMG = alpine-2g.img
 
 img:
 	@if [ ! -f $(IMG) ]; then \
@@ -30,13 +30,19 @@ img:
 		curl -f -L $(IMG_URL)/$(IMG).xz -O; \
 		xz -d $(IMG).xz; \
 	fi
-	@cp $(IMG) arceos/disk.img
+	cp $(IMG) arceos/disk.img
 
 defconfig justrun clean:
+	@if [ ! -d "vendor" ]; then \
+		echo "Vendor directory not found, extracting vendor.tar.gz..."; \
+		tar -xzf vendor.tar.gz; \
+	else \
+		echo "Vendor directory already exists, skip extraction."; \
+	fi
 	@make -C arceos $@
 
 build run debug disasm: defconfig
-	@make -C arceos $@
+	make -C arceos $@
 
 # Aliases
 rv:

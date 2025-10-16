@@ -1,0 +1,140 @@
+[source.crates-io]
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/ahci_driver.git?rev=beaa9c8"]
+git = "https://github.com/Starry-OS/ahci_driver.git"
+rev = "beaa9c8"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/allocator.git?rev=d5feebd"]
+git = "https://github.com/Starry-OS/allocator.git"
+rev = "d5feebd"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/arm-gic-driver.git?rev=2e33925"]
+git = "https://github.com/Starry-OS/arm-gic-driver.git"
+rev = "2e33925"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/axbacktrace.git?rev=09c22b6"]
+git = "https://github.com/Starry-OS/axbacktrace.git"
+rev = "09c22b6"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/axcpu.git?rev=3349bfd"]
+git = "https://github.com/Starry-OS/axcpu.git"
+rev = "3349bfd"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/axdriver_crates.git?rev=a263470"]
+git = "https://github.com/Starry-OS/axdriver_crates.git"
+rev = "a263470"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/axerrno.git?rev=58be232"]
+git = "https://github.com/Starry-OS/axerrno.git"
+rev = "58be232"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/axfs-ng-vfs.git?rev=6cf8893"]
+git = "https://github.com/Starry-OS/axfs-ng-vfs.git"
+rev = "6cf8893"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/axio.git?rev=ebb0c6b"]
+git = "https://github.com/Starry-OS/axio.git"
+rev = "ebb0c6b"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/axplat-loongarch64-2k1000la.git?rev=b9b10d7"]
+git = "https://github.com/Starry-OS/axplat-loongarch64-2k1000la.git"
+rev = "b9b10d7"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/axplat-riscv64-visionfive2.git?rev=a4f99aa"]
+git = "https://github.com/Starry-OS/axplat-riscv64-visionfive2.git"
+rev = "a4f99aa"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/axplat_crates.git?rev=243fdc9"]
+git = "https://github.com/Starry-OS/axplat_crates.git"
+rev = "243fdc9"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/axpoll.git?rev=258cb5f"]
+git = "https://github.com/Starry-OS/axpoll.git"
+rev = "258cb5f"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/axsched.git?rev=2076c9b"]
+git = "https://github.com/Starry-OS/axsched.git"
+rev = "2076c9b"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/kernel_elf_parser.git?rev=fdcce74"]
+git = "https://github.com/Starry-OS/kernel_elf_parser.git"
+rev = "fdcce74"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/lwext4_rust.git?rev=033fa2c"]
+git = "https://github.com/Starry-OS/lwext4_rust.git"
+rev = "033fa2c"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/page_table_multiarch.git?rev=3f697c8"]
+git = "https://github.com/Starry-OS/page_table_multiarch.git"
+rev = "3f697c8"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/plic.git?rev=ee40f86"]
+git = "https://github.com/Starry-OS/plic.git"
+rev = "ee40f86"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/rust-fatfs.git?rev=2685439"]
+git = "https://github.com/Starry-OS/rust-fatfs.git"
+rev = "2685439"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/simple-sdmmc.git?rev=db64be9"]
+git = "https://github.com/Starry-OS/simple-sdmmc.git"
+rev = "db64be9"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/smoltcp.git?rev=7401a54"]
+git = "https://github.com/Starry-OS/smoltcp.git"
+rev = "7401a54"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/starry-process.git?rev=6327455"]
+git = "https://github.com/Starry-OS/starry-process.git"
+rev = "6327455"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/starry-signal.git?rev=5b23dec"]
+git = "https://github.com/Starry-OS/starry-signal.git"
+rev = "5b23dec"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/Starry-OS/starry-vm.git?rev=4c91a6b"]
+git = "https://github.com/Starry-OS/starry-vm.git"
+rev = "4c91a6b"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/arceos-org/slab_allocator.git?tag=v0.3.1"]
+git = "https://github.com/arceos-org/slab_allocator.git"
+tag = "v0.3.1"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/jasonwhite/syscalls.git?rev=92624de"]
+git = "https://github.com/jasonwhite/syscalls.git"
+rev = "92624de"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/lights0123/printf-compat.git?rev=5f5c9cc"]
+git = "https://github.com/lights0123/printf-compat.git"
+rev = "5f5c9cc"
+replace-with = "vendored-sources"
+
+[source.vendored-sources]
+directory = "vendor"
